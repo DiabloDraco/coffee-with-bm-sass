@@ -49,4 +49,12 @@
         display: inline-block;
         border-radius: 6px;
     }
+
+    &__button:hover {
+        background-color: $button-hover;
+    }
+
+    &__button:active {
+        background-color: $button-active;
+    }
 }
