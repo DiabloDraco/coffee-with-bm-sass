@@ -1,0 +1,105 @@
+.headquarters__container {
+  max-width: 1085px;
+  margin-bottom: 168px;
+}
+
+.headquarters__heading {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin-bottom: 72px;
+}
+
+.headquarters__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.headquarters__item-heading-uk {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  padding-top: 95px;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.headquarters__item-heading-uk::before {
+  content: "";
+  display: inline-block;
+  background-image: url(./../../images/uk.svg);
+  width: 41px;
+  height: 49px;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+}
+
+.headquarters__item-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.headquarters__list-item {
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.headquarters__item-heading-canada {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  padding-top: 95px;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.headquarters__item-heading-canada::before {
+  content: "";
+  display: inline-block;
+  background-image: url(./../../images/canada.svg);
+  width: 41px;
+  height: 49px;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+}
+
+.headquarters__item-heading-aus {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  padding-top: 95px;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.headquarters__item-heading-aus::before {
+  content: "";
+  display: inline-block;
+  background-image: url(./../../images/australia.svg);
+  width: 41px;
+  height: 49px;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+}
+/*# sourceMappingURL=headquarters.css.map */

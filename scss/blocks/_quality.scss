@@ -1,8 +1,5 @@
 .quality {
 
-		&__container {
-		}
-
 		&__inner-wrapper {
 			background-color: #2C343E;
 			border-radius: 10px;
@@ -31,8 +28,7 @@
 			opacity: 0.8;
 		}
 }
-.container {
-}
+
 .quality-background {
     background-image: url(./../images/quality-bg.png);
     background-repeat: no-repeat;
