@@ -1066,6 +1066,7 @@ h1, h2, h3, h4, h5, h6, p {
   content: "";
   display: inline-block;
   background-image: url(./../../images/uk.svg);
+  background-repeat: no-repeat;
   width: 41px;
   height: 49px;
   background-size: contain;
@@ -1099,6 +1100,7 @@ h1, h2, h3, h4, h5, h6, p {
   content: "";
   display: inline-block;
   background-image: url(./../../images/canada.svg);
+  background-repeat: no-repeat;
   width: 41px;
   height: 49px;
   background-size: contain;
@@ -1122,6 +1124,7 @@ h1, h2, h3, h4, h5, h6, p {
   content: "";
   display: inline-block;
   background-image: url(./../../images/australia.svg);
+  background-repeat: no-repeat;
   width: 41px;
   height: 49px;
   background-size: contain;
