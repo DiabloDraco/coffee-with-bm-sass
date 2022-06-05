@@ -8,6 +8,10 @@
 
     &__inner-wrapper {
         padding-top: 130px;
+        background-image: url(./../../images/background-text.svg);
+        background-size: 1111px 196px contain;
+        background-repeat: no-repeat;
+        background-position: calc(0%) calc(1%);
     }
 
     &__list {
