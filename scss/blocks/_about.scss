@@ -1,5 +1,5 @@
 .about {
-
+    
     &__container {
         background-image: url(./../../images/about-bg.jpg);
         background-size: cover;
@@ -8,7 +8,7 @@
         border-radius: 10px;
         margin-bottom: 168px;
     }
-
+    
     &__inner-wrapper {
         display: flex;
         flex-direction: column;
@@ -16,7 +16,7 @@
         text-align: left;
         padding: 137px 0 137px 85px;
     }
-
+    
     &__heading {
         font-family: 'Fraunces';
         font-style: normal;
@@ -26,7 +26,7 @@
         color: #FEFCF7;
         margin-bottom: 24px;
     }
-
+    
     &__text {
         font-family: 'Barlow';
         font-style: normal;
@@ -35,4 +35,15 @@
         line-height: 26px;
         color: #FEFCF7;
     }
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx) { 
+        
+        &__container        { background-image: url(./../../images/about-bg.png);} 
+    } 
 }
+

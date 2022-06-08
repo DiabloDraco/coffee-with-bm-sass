@@ -30,7 +30,7 @@
 }
 
 .quality-background {
-    background-image: url(./../images/quality-bg.png);
+    background-image: url(./../../images/quality-bg.png);
     background-repeat: no-repeat;
     position: absolute;
     background-size: 445px 474px;
@@ -39,3 +39,14 @@
     top: -85px;
     right: 85px;
 }
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+	.quality-background { background-image: url(./../../images/quality@2x.png); }
+} 
