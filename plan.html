@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Plan</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/main.css">
+	<title>Plan</title>
 </head>
 <body>
-    <header class="header">
+	<header class="header">
 		<div class="header__container container">
 			<div class="header__container-inner-wrapper">
 				<a class="header__logo" href="#">
@@ -36,19 +36,19 @@
 			</div>
 		</div>
 	</header>
-    <main>
-        <section class="create">
-            <div class="create__container container">
-                <div class="create__inner-wrapper">
-                    <h2 class="create__heading">
-                        Create a plan
-                    </h2>
-                    <p class="create__text">
-                        Build a subscription plan that best fits your needs. We offer an assortment of the best artisan coffees from around the globe delivered fresh to your door.
-                    </p>
-                </div>
-            </div>
-        </section>
+	<main>
+		<section class="create">
+			<div class="create__container container">
+				<div class="create__inner-wrapper">
+					<h2 class="create__heading">
+						Create a plan
+					</h2>
+					<p class="create__text">
+						Build a subscription plan that best fits your needs. We offer an assortment of the best artisan coffees from around the globe delivered fresh to your door.
+					</p>
+				</div>
+			</div>
+		</section>
 		<section class="step">
 			<div class="step__container container">
 				<div class="step__inner-wrapper">
@@ -89,8 +89,253 @@
 				</div>
 			</div>
 		</section>
-    </main>
-    <footer class="footer">
+		<section class="drink">
+			<div class="drink__container container">
+				<div class="drink__inner-container">
+					<div class="drink__container-left">
+						<ul class="drink__list-left">
+							<li class="drink__item-left">
+								<a class="drink__link-left" href="#">
+									<span class="drink__item-number drink__number--active">01</span>Preferences
+								</a>
+							</li>
+							<li class="drink__item-left">
+								<a class="drink__link-left" href="#">
+									<span class="drink__item-number">02</span>Bean Type
+								</a>
+							</li>
+							<li class="drink__item-left">
+								<a class="drink__link-left" href="#">
+									<span class="drink__item-number">03</span>Quantity
+								</a>
+							</li>
+							<li class="drink__item-left">
+								<a class="drink__link-left" href="#">
+									<span class="drink__item-number">04</span>Grind Option
+								</a>
+							</li>
+							<li class="drink__item-left drink__item--active">
+								<a class="drink__link-left" href="#">
+									<span class="drink__item-number">05</span>Deliveries
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="drink__container-right">
+						<form action="https://echo.htmlacademy.ru/courses" >
+							<div class="drink__container-heading">
+								<h2 class="drink__heading-right">How do you drink your coffee?</h2>
+								<img src="./images/arrow_down.svg" class="drink__arrow-right" width="18" height="12">
+							</div>
+							<div class="drink__input-container">
+								<div class="drink__input-wrapper">
+									<label class="drink__input-label">
+										<h3 class="drink__input-heading">
+											Capsule
+										</h3>
+										<p class="drink__input-text">
+											Compatible with Nespresso systems and similar brewers
+										</p>
+										<input class="drink__input" type="radio" name="how">
+									</label>
+								</div>
+								<div class="drink__input-wrapper">
+									<label class="drink__input-label">
+										<h3 class="drink__input-heading">
+											Filter
+										</h3>
+										<p class="drink__input-text">
+											For pour over or drip methods like Aeropress, Chemex, and V60
+										</p>
+										<input class="drink__input" type="radio" name="how">
+									</label>
+								</div>
+								<div class="drink__input-wrapper">
+									<label class="drink__input-label">
+										<h3 class="drink__input-heading">
+											Espresso
+										</h3>
+										<p class="drink__input-text">
+											Dense and finely ground beans for an intense, flavorful experience
+										</p>
+										<input class="drink__input" type="radio" name="how">
+									</label>
+								</div>
+							</div>
+							<div class="drink__container-heading">
+								<h2 class="drink__heading-right">What type of coffee?</h2>
+								<img src="./images/arrow_down.svg" class="drink__arrow-right" width="18" height="12">
+							</div>
+							<div class="drink__input-container">
+								<div class="drink__input-wrapper">
+									<label class="drink__input-label">
+										<h3 class="drink__input-heading">
+											Single Origin
+										</h3>
+										<p class="drink__input-text">
+											Distinct, high quality coffee from a specific family-owned farm
+										</p>
+										<input class="drink__input" type="radio" name="type">
+									</label>
+								</div>
+								<div class="drink__input-wrapper">
+									<label class="drink__input-label">
+										<h3 class="drink__input-heading">
+											Decaf
+										</h3>
+										<p class="drink__input-text">
+											Just like regular coffee, except the caffeine has been removed
+										</p>
+										<input class="drink__input" type="radio" name="type">
+									</label>
+								</div>
+								<div class="drink__input-wrapper">
+									<label class="drink__input-label">
+										<h3 class="drink__input-heading">
+											Blended
+										</h3>
+										<p class="drink__input-text">
+											Combination of two or three dark roasted beans of organic coffees
+										</p>
+										<input class="drink__input" type="radio" name="type">
+									</label>
+								</div>
+							</div>
+							<div class="drink__container-heading">
+								<h2 class="drink__heading-right">How much would you like?</h2>
+								<img src="./images/arrow_down.svg" class="drink__arrow-right" width="18" height="12">
+							</div>
+							<div class="drink__input-container">
+								<div class="drink__input-wrapper">
+									<label class="drink__input-label">
+										<h3 class="drink__input-heading">
+											250g
+										</h3>
+										<p class="drink__input-text">
+											Perfect for the solo drinker. Yields about 12 delicious cups.
+										</p>
+										<input class="drink__input" type="radio" name="much">
+									</label>
+								</div>
+								<div class="drink__input-wrapper">
+									<label class="drink__input-label">
+										<h3 class="drink__input-heading">
+											500g
+										</h3>
+										<p class="drink__input-text">
+											Perfect option for a couple. Yields about 40 delectable cups.
+										</p>
+										<input class="drink__input" type="radio" name="much">
+									</label>
+								</div>
+								<div class="drink__input-wrapper">
+									<label class="drink__input-label">
+										<h3 class="drink__input-heading">
+											1000g
+										</h3>
+										<p class="drink__input-text">
+											Perfect for offices and events. Yields about 90 delightful cups.
+										</p>
+										<input class="drink__input" type="radio" name="much">
+									</label>
+								</div>
+							</div>
+							<div class="drink__container-heading">
+								<h2 class="drink__heading-right">Want us to grind them?</h2>
+								<img src="./images/arrow_down.svg" class="drink__arrow-right" width="18" height="12">
+							</div>
+							<div class="drink__input-container">
+								<div class="drink__input-wrapper">
+									<label class="drink__input-label">
+										<h3 class="drink__input-heading">
+											Wholebean
+										</h3>
+										<p class="drink__input-text">
+											Best choice if you cherish the full sensory experience
+										</p>
+										<input class="drink__input" type="radio" name="grind">
+									</label>
+								</div>
+								<div class="drink__input-wrapper">
+									<label class="drink__input-label">
+										<h3 class="drink__input-heading">
+											Filter
+										</h3>
+										<p class="drink__input-text">
+											For drip or pour-over coffee methods such as V60 or Aeropress
+										</p>
+										<input class="drink__input" type="radio" name="grind" checked>
+									</label>
+								</div>
+								<div class="drink__input-wrapper">
+									<label class="drink__input-label">
+										<h3 class="drink__input-heading">
+											Cafetiére
+										</h3>
+										<p class="drink__input-text">
+											Course ground beans specially suited for french press coffee
+										</p>
+										<input class="drink__input" type="radio" name="grind">
+									</label>
+								</div>
+							</div>
+							<div class="drink__container-heading">
+								<h2 class="drink__heading-right">How often should we deliver?</h2>
+								<img src="./images/arrow_down.svg" class="drink__arrow-right" width="18" height="12">
+							</div>
+							<div class="drink__input-container">
+								<div class="drink__input-wrapper">
+									<label class="drink__input-label">
+										<h3 class="drink__input-heading">
+											Every week
+										</h3>
+										<p class="drink__input-text">
+											$7.20 per shipment. Includes free first-class shipping.
+										</p>
+										<input class="drink__input" type="radio" name="deliver">
+									</label>
+								</div>
+								<div class="drink__input-wrapper">
+									<label class="drink__input-label">
+										<h3 class="drink__input-heading">
+											Every 2 weeks
+										</h3>
+										<p class="drink__input-text">
+											$9.60 per shipment. Includes free priority shipping.
+										</p>
+										<input class="drink__input" type="radio" name="deliver" >
+									</label>
+								</div>
+								<div class="drink__input-wrapper">
+									<label class="drink__input-label">
+										<h3 class="drink__input-heading">
+											Every month
+										</h3>
+										<p class="drink__input-text">
+											$12.00 per shipment. Includes free priority shipping.
+										</p>	
+										<input class="drink__input" type="radio" name="deliver">
+									</label>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="summary">
+			<div class="summary__container container">
+				<div class="summary__inner-wrapper">
+					<h2 class="summary__heading">Order Summary</h2>
+					<p class="summary__text">
+						“I drink my coffee as <span class="summary__color">Filter</span>, with a <span class="summary__color">Decaf</span> type of bean. 250g ground ala <span class="summary__color">Cafetiére</span>, sent to me <span class="summary__color">Every Week</span>.”
+					</p>
+				</div>
+				<button class="summary__button">Create my plan!</button>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
 		<div class="footer__container container">
 			<div class="footer__inner-wrapper">
 				<a class="footer__logo" href="#">
