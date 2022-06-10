@@ -1435,6 +1435,10 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 32px 28px 84px 28px;
 }
 
+.drink__form-item-wrapper:hover {
+  background-color: #FDD6BA;
+}
+
 .drink__form-item-heading {
   font-family: 'Fraunces';
   display: inline-block;

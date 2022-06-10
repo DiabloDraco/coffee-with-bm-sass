@@ -129,6 +129,9 @@
         border-radius: 8px;
         width: 228px;
         padding: 32px 28px 84px 28px;
+        &:hover {
+            background-color: #FDD6BA;
+        }
     }
     
     &__form-item-heading {
