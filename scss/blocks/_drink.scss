@@ -1,26 +1,27 @@
 .drink {
-
+    
     &__container {
         padding-left: 85px;
         padding-right: 85px;
     }
-
+    
     &__inner-container {
         display: flex;
     }
-
+    
     &__container-left {
         max-width: 255px;
+        width: 100%;
         margin-right: 125px;
     }
-
+    
     &__list-left {
         display: flex;
         flex-direction: column;
         position: sticky;
         top: 20px;
     }
-
+    
     &__item-left {
         padding-bottom: 24px;
         margin-bottom: 24px;
@@ -30,7 +31,7 @@
             border-bottom: none;
         }
     }
-
+    
     &__link-left {
         text-decoration: none;
         font-family: 'Fraunces';
@@ -40,7 +41,7 @@
         line-height: 32px;
         color: #333D4B;
     }
-
+    
     &__item-number {
         font-family: 'Fraunces';
         font-style: normal;
@@ -50,7 +51,7 @@
         color: #83888F;
         margin-right: 24.5px;
     }
-
+    
     &__number--active {
         font-family: 'Fraunces';
         font-style: normal;
@@ -59,85 +60,99 @@
         line-height: 32px;
         color: #0E8784;
     }
-
+    
     &__item--active {
         opacity: 1;
     }
-
+    
     &__container-right {
         max-width: 730px;
+        width: 100%;
     }
-
-    &__container-heading {
+    
+    &__form {
+        
+    }
+    
+    &__right-list {
         display: flex;
-        margin-bottom: 56px;
-        align-items: center;
-        justify-content: space-between;
-        max-width: 710px;
+        flex-direction: column;
     }
-
-    &__heading-right {
+    
+    &__right-item {
+        margin-bottom: 88px;
+    }
+    
+    &__right-heading-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 56px;
+    }
+    
+    &__right-heading {
         font-family: 'Fraunces';
-        font-style: normal;
-        font-weight: 900;
         font-size: 40px;
         line-height: 48px;
         color: #83888F;
     }
-
-    &__input-container {
-        max-width: 730px;
+    
+    &__list-arrow {
+        border: none;
+        width: 18px;
+        height: 12px;
+        background-image: url(./../../images/arrow_down.svg);
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    &__item-form {
         display: flex;
         justify-content: space-between;
     }
 
-    .drink__input {
-        opacity: 0;
-        z-index: -1;
-    }
-
-    .drink__input:checked + .drink__input-text {
-        color: #FFFFFF;
-    }
-
-    .drink__input:checked + .drink__input-heading {
-        color: #FFFFFF;
+    &__form-item {
+        display: flex;
     }
     
-    input:checked + .drink__input-wrapper {
-        
+    &__input {
+        display: none;
+        &:checked + .drink__form-item-wrapper {
+            background-color: #0E8784;
+        }
+        &:checked + .drink__form-item-wrapper .drink__form-item-heading {
+            color: #FFFFFF;
+        }
+        &:checked + .drink__form-item-wrapper .drink__form-item-text {
+            color: #FEFCF7;
+        }
     }
-    &__input-label:hover {
-        background-color:#0E8784;
-    }
-    &__input-label {
-        display: inline-block;
-        width: 228px;
+    
+    &__form-item-wrapper {
         background: #F4F1EB;
         border-radius: 8px;
-        margin-bottom: 88px;
-        padding-top: 32px;
-        padding-right: 28px;
-        padding-bottom: 84px;
-        padding-left: 28px;
-        margin-right: 23px;
-        transition: all 1s;
+        width: 228px;
+        padding: 32px 28px 84px 28px;
     }
-
-    &__input-heading {
+    
+    &__form-item-heading {
         font-family: 'Fraunces';
-        font-style: normal;
-        font-weight: 900;
+        display: inline-block;
         font-size: 24px;
         line-height: 32px;
         color: #333D4B;
         margin-bottom: 24px;
-        width: 180px;
+        width: 175px;
     }
-
-    &__input-text {
+    
+    &__form-item-text {
+        font-family: 'Barlow';
+        font-style: normal;
+        display: inline-block;
+        font-weight: 400;
         font-size: 16px;
         line-height: 26px;
         color: #333D4B;
+        width: 172px;
     }
 }
