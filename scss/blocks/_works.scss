@@ -110,3 +110,240 @@
     }
 }
 
+@media only screen and (max-width: 800px) {
+    /* TABLET */
+
+    .works {
+
+        &__container {
+            max-width: 689px;
+            width: 100%;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+    
+        &__inner-wrapper {
+            margin-bottom: 144px;
+        }
+    
+        &__heading {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #83888F;
+            margin-bottom: 80px;
+        }
+    
+        &__list {
+            display: flex;
+            margin-bottom: 40px;
+        }
+    
+        &__item {
+            width: 233px;
+            padding-right: 10px;
+            position: relative;
+        }
+    
+        &__item--circle {
+            display: inline-block;
+            width: 31px;
+            height: 31px;
+            background-image: url(./../../images/Oval.svg);
+            margin-bottom: 48px;
+        }
+    
+        &__item--circle::after {
+            content: "";
+            display: inline-block;
+            height: 2px;
+            width: 100%;
+            background-color: $pale-orange;
+            position: absolute;
+            z-index: -1;
+            top: 15px;
+        }
+    
+        &__item--circle-1 {
+            display: inline-block;
+            width: 31px;
+            height: 31px;
+            background-image: url(./../../images/Oval.svg);
+            margin-bottom: 48px;
+        }
+    
+        &__item-number {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 72px;
+            color: #FDD6BA;
+            margin-bottom: 38px;
+        }
+    
+        &__item-heading {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 32px;
+            color: #333D4B;
+            margin-bottom: 38px;
+            width: 223px;
+        }
+    
+        &__item-text {
+            font-size: 15px;
+            line-height: 25px;
+            color: #333D4B;
+            width: 223px;
+        }
+    
+        &__item-button {
+            padding: 16px 31px;
+            text-decoration: none;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: #FEFCF7;
+            background-color: $dark-cyan;
+            width: 217px;
+            display: inline-block;
+            border-radius: 6px;
+        }
+    
+        &__item-button:hover {
+            background-color: $button-hover;
+        }
+    
+        &__item-button:active {
+            background-color: $button-active;
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    /* MOBILE */
+    .works {
+        &__container {
+            max-width: 327px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        &__inner-wrapper {
+            margin-bottom: 120px;
+        }
+
+        &__heading {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #83888F;
+            margin-bottom: 80px;
+        }
+
+        &__list {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 64px;
+            gap: 56px;
+        }
+
+        &__item {
+            width: 327px;
+            padding-right: 0px;
+        }
+
+        &__item--circle {
+            display: none;
+            width: 31px;
+            height: 31px;
+            background-image: url(./../../images/Oval.svg);
+            margin-bottom: 67px;
+        }
+
+        &__item--circle::after {
+            content: "";
+            display: none;
+            height: 2px;
+            width: 100%;
+            background-color: $pale-orange;
+            position: absolute;
+            z-index: -1;
+            top: 15px;
+        }
+
+        &__item--circle-1 {
+            display: none;
+            width: 31px;
+            height: 31px;
+            background-image: url(./../../images/Oval.svg);
+            margin-bottom: 67px;
+        }
+
+        &__item-number {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            text-align: center;
+            font-size: 72px;
+            line-height: 72px;
+            color: #FDD6BA;
+            margin-bottom: 24px;
+        }
+
+        &__item-heading {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 32px;
+            color: #333D4B;
+            margin-bottom: 24px;
+            text-align: center;
+            width: 327px;
+        }
+
+        &__item-text {
+            font-size: 16px;
+            line-height: 26px;
+            color: #333D4B;
+            width: 327px;
+            text-align: center;
+        }
+
+        &__item-button {
+            padding: 16px 31px;
+            text-decoration: none;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: #FEFCF7;
+            background-color: $dark-cyan;
+            width: 217px;
+            display: inline-block;
+            border-radius: 6px;
+            margin-left: 50px;
+        }
+
+        &__item-button:hover {
+            background-color: $button-hover;
+        }
+
+        &__item-button:active {
+            background-color: $button-active;
+        }
+    }
+}
