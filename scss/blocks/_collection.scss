@@ -83,8 +83,9 @@
         &__inner-wrapper {
             display: flex;
             flex-direction: column;
+            width: 689px;
             background-image: url(./../../images/collection__text.svg);
-            background-size: 689px 118px contain;
+            background-size: contain;
             background-repeat: no-repeat;
             background-position: calc(0%) calc(0%);
         }
