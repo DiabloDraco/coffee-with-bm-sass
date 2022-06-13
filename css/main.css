@@ -473,7 +473,7 @@ a {
   opacity: 0.5;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   /* TABLET */
   .header__container-inner-wrapper {
     margin-top: 40px;
@@ -481,7 +481,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
   /* MOBILE */
   .header {
     position: relative;
@@ -557,6 +557,7 @@ a {
 .cbanner__inner-wrapper {
   background-image: url(./../../images/Bitmap.png);
   max-width: 1280px;
+  width: 100%;
   border-radius: 10px;
   background-size: cover;
   background-position: center;
@@ -618,11 +619,12 @@ a {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   /* TABLET */
   .cbanner__inner-wrapper {
     background-image: url(./../../images/Bitmap.png);
-    max-width: 1280px;
+    max-width: 689px;
+    width: 100%;
     border-radius: 10px;
     background-size: cover;
     background-position: center;
@@ -680,6 +682,7 @@ a {
   .cbanner__inner-wrapper {
     background-image: url(./../../images/Bitmap-mob.png);
     max-width: 327px;
+    width: 100%;
     border-radius: 10px;
     background-size: cover;
     display: -webkit-box;
@@ -707,6 +710,7 @@ a {
     line-height: 40px;
     color: #FEFCF7;
     max-width: 279px;
+    width: 100%;
     text-align: center;
     margin-bottom: 24px;
   }
@@ -716,7 +720,8 @@ a {
     color: #FEFCF7;
     mix-blend-mode: normal;
     opacity: 0.8;
-    width: 279px;
+    max-width: 279px;
+    width: 100%;
     margin-bottom: 39px;
   }
   .cbanner__button {
@@ -862,6 +867,7 @@ a {
   .collection__item-wrapper {
     display: inline-block;
     max-width: 282px;
+    width: 100%;
     margin-bottom: 57px;
   }
   .collection__heading-gran {
@@ -872,6 +878,7 @@ a {
     line-height: 32px;
     color: #333D4B;
     margin-bottom: 24px;
+    width: 282px;
     text-align: start;
   }
   .collection__description {
@@ -880,6 +887,8 @@ a {
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
+    max-width: 282px;
+    width: 100%;
     color: #333D4B;
     text-align: start;
   }

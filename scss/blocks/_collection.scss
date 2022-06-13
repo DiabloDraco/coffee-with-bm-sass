@@ -113,6 +113,7 @@
         &__item-wrapper {
             display: inline-block;
             max-width: 282px;
+            width: 100%;
             margin-bottom: 57px;
         }
 
@@ -124,6 +125,7 @@
             line-height: 32px;
             color: #333D4B;
             margin-bottom: 24px;
+            width: 282px;
             text-align: start;
         }
         
@@ -133,6 +135,8 @@
             font-weight: 400;
             font-size: 15px;
             line-height: 25px;
+            max-width: 282px;
+            width: 100%;
             color: #333D4B;
             text-align: start;
         }
@@ -207,6 +211,7 @@
             color: #333D4B;
             text-align: center;
             margin-bottom: 24px;
+
         }
         
         &__description {

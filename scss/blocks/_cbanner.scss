@@ -3,6 +3,7 @@
     &__inner-wrapper {
         background-image: url(./../../images/Bitmap.png);
         max-width: 1280px;
+        width: 100%;
         border-radius: 10px;
         background-size: cover;
         background-position: center;
@@ -71,14 +72,15 @@
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     /* TABLET */
     
     .cbanner {
         
         &__inner-wrapper {
             background-image: url(./../../images/Bitmap.png);
-            max-width: 1280px;
+            max-width: 689px;
+            width: 100%;
             border-radius: 10px;
             background-size: cover;
             background-position: center;
@@ -146,6 +148,7 @@
         &__inner-wrapper {
             background-image: url(./../../images/Bitmap-mob.png);
             max-width: 327px;
+            width: 100%;
             border-radius: 10px;
             background-size: cover;
             display: flex;
@@ -168,6 +171,7 @@
             line-height: 40px;
             color: #FEFCF7;
             max-width: 279px;
+            width: 100%;
             text-align: center;
             margin-bottom: 24px;
         }
@@ -178,7 +182,8 @@
             color: #FEFCF7;
             mix-blend-mode: normal;
             opacity: 0.8;
-            width: 279px;
+            max-width: 279px;
+            width: 100%;
             margin-bottom: 39px;
         }
         
