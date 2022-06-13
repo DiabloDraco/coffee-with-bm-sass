@@ -832,6 +832,8 @@ a {
   /* TABLET */
   .collection__container {
     margin-bottom: 144px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .collection__inner-wrapper {
     display: -webkit-box;
