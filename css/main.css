@@ -908,8 +908,8 @@ a {
 @media only screen and (max-width: 400px) {
   /* MOBILE */
   .collection__container {
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 120px;
   }
   .collection__inner-wrapper {
