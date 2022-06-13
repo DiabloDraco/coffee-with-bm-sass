@@ -423,7 +423,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 1280px;
+  width: 1280px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -680,8 +680,7 @@ a {
   /* Mobile */
   .cbanner__inner-wrapper {
     background-image: url(./../../images/Bitmap-mob.png);
-    max-width: 327px;
-    width: 100%;
+    width: 327px;
     border-radius: 10px;
     background-size: cover;
     display: -webkit-box;
@@ -2553,8 +2552,7 @@ a {
 @media only screen and (max-width: 400px) {
   /* MOBILE */
   .footer__container {
-    max-width: 367px;
-    width: 100%;
+    width: 367px;
     background-color: #2C343E;
   }
   .footer__inner-wrapper {
