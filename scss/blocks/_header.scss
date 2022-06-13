@@ -1,34 +1,39 @@
 .header {
-
+    
     &__container-inner-wrapper {
         display: flex;
         align-items: center;
+        max-width: 1280px;
         justify-content: space-between;
         margin-top: 43px;
         margin-bottom: 43px;
     }
-
+    
     &__logo {
         width: 236px;
         height: 26px;
         object-fit: contain;
     }
+    
+    &__list-button {
+        display: none;
+    }
 }
 
 .navbar {
-
+    
     &__list {
         display: flex;
     }
-
+    
     &__item {
         margin-right: 33px;
     }
-
+    
     &__item:last-child {
         margin-right: 0px;
     }
-
+    
     &__item-link {
         text-decoration: none;
         font-weight: 700;
@@ -37,12 +42,94 @@
         letter-spacing: 0.923077px;
         color: #83888F;
     }
-
+    
     &__item-link:hover {
         color: #333D4B;
     }
-
+    
     &__item-link:active {
         opacity: 0.5;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* TABLET */
+    
+    .header__container-inner-wrapper {
+        margin-top: 40px;
+        margin-bottom: 53px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    /* MOBILE */
+    
+    .header {
+        position: relative;
+        
+        &__container-inner-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 32px;
+            margin-bottom: 40px;
+        }
+        
+        &__logo-img {
+            width: 163px;
+        }
+        
+        &__list-button {
+            display: flex;
+            border: none;
+            outline: none;
+            background: none;
+            &-burg {
+            }
+            &-x {
+                display: none;
+            }
+        }
+    }
+    
+    .navbar {
+        & {
+            padding-bottom: 140px;
+        }
+        &__list {
+            display: none;
+            flex-direction: column;
+            text-align: center;
+            gap: 33px;
+            position: absolute;
+            transform: translateY(100%);
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background: linear-gradient(0deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
+        }
+        
+        &__item:last-child {
+            padding-bottom: 100px;
+        }
+        
+        &__item-link {
+            text-decoration: none;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: #333D4B;
+        }
+        
+        &__item-link:hover {
+            color: #333D4B;
+        }
+        
+        &__item-link:active {
+            opacity: 0.5;
+        }
     }
 }

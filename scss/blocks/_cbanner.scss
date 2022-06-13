@@ -1,19 +1,19 @@
 .cbanner {
-
+    
     &__inner-wrapper {
         background-image: url(./../../images/Bitmap.png);
-        width: 1280px;
-        height: 600px;
+        max-width: 1280px;
         border-radius: 10px;
         background-size: cover;
+        background-position: center;
         margin-bottom: 136px;
     }
-
+    
     &__text-wrapper {
         padding: 117px 702px 117px 85px;
         max-width: 493px;
     }
-
+    
     &__heading {
         font-family: 'Fraunces';
         font-style: normal;
@@ -24,7 +24,7 @@
         width: 493px;
         margin-bottom: 32px;
     }
-
+    
     &__text {
         line-height: 26px;
         color: #FEFCF7;
@@ -33,7 +33,7 @@
         width: 493px;
         margin-bottom: 55px;
     }
-
+    
     &__button {
         padding: 16px 31px;
         text-decoration: none;
@@ -49,15 +49,15 @@
         display: inline-block;
         border-radius: 6px;
     }
-
+    
     &__button:hover {
         background-color: $button-hover;
     }
-
+    
     &__button:active {
         background-color: $button-active;
     }
-
+    
     @media
     only screen and (-webkit-min-device-pixel-ratio: 2),
     only screen and (   min--moz-device-pixel-ratio: 2),
@@ -65,7 +65,145 @@
     only screen and (        min-device-pixel-ratio: 2),
     only screen and (                min-resolution: 192dpi),
     only screen and (                min-resolution: 2dppx) { 
-      
-        &__inner-wrapper        { background-image: url(./../../images/Bitmap@2.jpg);} 
+        
+        &__inner-wrapper        { background-image: url(./../../images/Bitmap@2x.png);} 
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* TABLET */
+    
+    .cbanner {
+        
+        &__inner-wrapper {
+            background-image: url(./../../images/Bitmap.png);
+            max-width: 1280px;
+            border-radius: 10px;
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 144px;
+        }
+        
+        &__text-wrapper {
+            padding: 104px 0px 104px 58px;
+            max-width: 398px;
+            width: 100%;
+        }
+        
+        &__heading {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 48px;
+            color: #FEFCF7;
+            max-width: 329px;
+            margin-bottom: 24px;
+        }
+        
+        &__text {
+            font-size: 15px;
+            line-height: 25px;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            width: 398px;
+            margin-bottom: 40px;
+        }
+        
+        &__button {
+            padding: 16px 31px;
+            text-decoration: none;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: #FEFCF7;
+            background-color: $dark-cyan;
+            width: 217px;
+            display: inline-block;
+            border-radius: 6px;
+        }
+        
+        &__button:hover {
+            background-color: $button-hover;
+        }
+        
+        &__button:active {
+            background-color: $button-active;
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    /* Mobile */
+    
+    .cbanner {
+        
+        &__inner-wrapper {
+            background-image: url(./../../images/Bitmap-mob.png);
+            max-width: 327px;
+            border-radius: 10px;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            background-position: center;
+            margin-bottom: 120px;
+            align-items: center;
+        }
+        
+        &__text-wrapper {
+            padding: 100px 24px 100px 24px;
+            max-width: 279px;
+        }
+        
+        &__heading {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 40px;
+            color: #FEFCF7;
+            max-width: 279px;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        
+        &__text {
+            font-size: 15px;
+            line-height: 25px;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            width: 279px;
+            margin-bottom: 39px;
+        }
+        
+        &__button {
+            padding: 16px 31px;
+            text-decoration: none;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: #FEFCF7;
+            background-color: $dark-cyan;
+            width: 217px;
+            display: inline-block;
+            border-radius: 6px;
+        }
+        
+        &__button:hover {
+            background-color: $button-hover;
+        }
+        
+        &__button:active {
+            background-color: $button-active;
+        }
     }
 }
