@@ -83,7 +83,8 @@
         &__inner-wrapper {
             display: flex;
             flex-direction: column;
-            width: 689px;
+            max-width: 689px;
+            width: 100%;
             background-image: url(./../../images/collection__text.svg);
             background-size: contain;
             background-repeat: no-repeat;
@@ -96,8 +97,9 @@
         
         &__item {
             display: flex;
-            width: 689px;
-            margin-left: 80px;
+            max-width: 689px;
+            width: 100%;
+            margin-left: 20px;
             -webkit-box-orient: vertical;
             -webkit-box-direction: normal;
             flex-direction: row;
@@ -167,12 +169,11 @@
         &__inner-wrapper {
             display: flex;
             flex-direction: column;
-            background-image: url(./../../images/collection__mob.svg);
             max-width: 327px;
             width: 100%;
             background-size:contain;
             background-repeat: no-repeat;
-            background-position: calc(0%) calc(0%);
+            background-position: calc(20%) calc(0%);
         }
         
         &__list {
@@ -184,6 +185,7 @@
             display: inline-block;
             max-width: 282px;
             width: 100%;
+            margin-left: -40px;
         }
         
         &__item-img {

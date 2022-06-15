@@ -79,11 +79,13 @@
         
         &__inner-wrapper {
             background-image: url(./../../images/Bitmap.png);
-            width: 689px;
+            max-width: 689px;
+            width: 100%;
             border-radius: 10px;
             background-size: cover;
             background-position: center;
             margin-bottom: 144px;
+            margin-left: -10px;
         }
         
         &__text-wrapper {
@@ -99,7 +101,7 @@
             font-size: 48px;
             line-height: 48px;
             color: #FEFCF7;
-            max-width: 329px;
+            width: 329px;
             margin-bottom: 24px;
         }
         
@@ -146,7 +148,8 @@
         
         &__inner-wrapper {
             background-image: url(./../../images/Bitmap-mob.png);
-            width: 327px;
+            max-width: 327px;
+            width: 100%;
             border-radius: 10px;
             background-size: cover;
             display: flex;
@@ -168,8 +171,7 @@
             font-size: 40px;
             line-height: 40px;
             color: #FEFCF7;
-            max-width: 279px;
-            width: 100%;
+            width: 279px;
             text-align: center;
             margin-bottom: 24px;
         }

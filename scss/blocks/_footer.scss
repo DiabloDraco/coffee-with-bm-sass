@@ -3,6 +3,7 @@
     &__container {
         background-color: #2C343E;
         max-width: 1280px;
+        margin-bottom: 135px;
     }
 
     &__inner-wrapper {
@@ -50,8 +51,10 @@
     .footer {
 
         &__container {
-            width: 688px;
+            max-width: 688px;
+            width: 100%;
             background-color: #2C343E;
+            margin-bottom: 72px;
         }
     
         &__inner-wrapper {
@@ -103,7 +106,8 @@
     .footer {
 
         &__container {
-            width: 367px;
+            max-width: 367px;
+            width: 100%;
             background-color: #2C343E;
         }
     
